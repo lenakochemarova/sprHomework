@@ -1,4 +1,4 @@
-package homework;
+package homework.config;
 
 
 import org.springframework.context.annotation.Configuration;

@@ -4,24 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="863bc9ab-1038-4e0d-8eaa-60c1d6a021e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/AnswersHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/AnswersHandlerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/ProcessorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/PropertiesConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/ResultsProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/CorrectAnswers" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Points.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/StudentsAnswers" afterDir="false" />
+    <list default="true" id="863bc9ab-1038-4e0d-8eaa-60c1d6a021e8" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/config/ResoursesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/service/PropertyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/model/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/AnswersHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/service/AnswersHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/AnswersHandlerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/model/AnswersHandlerInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/ProcessorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/config/ProcessorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/PropertiesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/config/PropertiesConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/ResultsProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/service/ResultsProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Points.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Points.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Maven.HomeworkTest [compile].executor": "Run",
     "Maven.HomeworkTest [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -82,6 +79,34 @@
       <option name="presentableId" value="Default" />
       <updated>1749802438688</updated>
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <option name="closed" value="true" />
+      <created>1749811489813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749811489813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/homework/service/PropertyService.java</url>
+          <line>35</line>
+          <properties class="homework.service.PropertyService" method="getPoint">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
